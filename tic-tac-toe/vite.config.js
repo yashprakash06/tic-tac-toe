@@ -5,12 +5,13 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/tic-tac-toe/',
   plugins: [
     react(),
     viteStaticCopy({
       targets: [
         {
-          src: 'public/_redirects',
+          src: 'public/404.html',
           dest: '.'
         }
       ]
