@@ -5,7 +5,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/tic-tac-toe/',
+  base: '/',
   plugins: [
     react(),
     viteStaticCopy({
